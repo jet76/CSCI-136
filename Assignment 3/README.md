@@ -33,6 +33,7 @@ public class DictEntry
  </pre>
  
 **Prediction class.** The brains of this whole operation is the class WordPredictor. This class learns how to make word predictions based on being shown training data. It can learn from all the words in a file (via the train() method) or from a single individual word (via the trainWord() method). After new training data is added, the build() method *must* be called so the class can recompute the most likely word for all possible prefixes. Here is the API for the WordPredictor class:  
+
 <pre>
 public class WordPredictor
 -----------------------------------------------------------------------------------------
@@ -46,8 +47,8 @@ public class WordPredictor
 
 **Training the model.** Model training occurs in the train() and trainWord() methods. train() should parse out each word in the specified file on disk. If the file cannot be read, it should print out an error, "Could not open training file: file.txt". All training words are converted to lowercase and stripped of any characters that are not a-z or the single apostrophe. During training, you need to update the instance variables:  
 <pre>
-	private HashMap<String, Integer> wordToCount;
-	private long total;
+private HashMap<String, Integer> wordToCount;
+private long total;
 </pre>
 
 The wordToCount instance variable is a map where the keys are the unique words encountered in the training data. The values are the integer count of how many times we've seen each word in the data. Only words seen in the training data will have an entry in the HashMap. The total instance variable tracks how many words of training data we have seen. That is, total should equal the sum of all integer counts stored in your map. Training is cumulative for repeated calls to train() and trainWord(), so you just keep increasing the counts stored in your wordToCount map and your total count of training words.  
