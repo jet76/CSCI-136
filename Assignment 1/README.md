@@ -26,7 +26,7 @@ The first line contains the width and height of the dungeon in cells. The second
 
 * W = Wall, appears as dirt and the hero cannot pass through it.
 * S = Secret passage, appears as dirt but the hero CAN walk here.
-* - = Passageway, appears as stone floor, the hero can walk here.
+* \- = Passageway, appears as stone floor, the hero can walk here.
 * D = Door, appears as a closed door, the hero must have a key to open.
 
 Your dungeon should appear on the screen oriented in the same way as the ASCII text version shown above. We think it is easiest if you setup your 2D array (let's call it map) so map[0][0] is the lower-left cell in the dungeon with the first index being the x-position and the second index being the y-position. So in the above map, the hero is at map[6][3], there is an open door at map[7][4], and so on.  
@@ -81,7 +81,7 @@ CellDoor.java
 ![](main_celldoor.png)  
 
 Hero.java		
-![](main_her.png)  
+![](main_hero.png)  
 
 Dungeon.java		
 ![](main_dungeon.png)  
