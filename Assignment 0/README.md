@@ -33,13 +33,13 @@ double distanceTo(Point that)       // return Euclidean distance between the two
 Each Point object can return a string representation of itself, draw itself to standard draw, draw a line segment from itself to another point using standard draw, and calculate the Euclidean distance between itself and another point.  
 
 **Tour data type.** Your task is to create a Tour data type that represents the sequence of points visited in a TSP tour. Represent the tour as a circular linked list of nodes, one for each point. Each Node will contain a Point and a reference to the next Node in the tour. Within Tour.java, define a nested class Node in the standard way:  
-```
+</pre>
 private class Node 
 {
     private Point p;
     private Node next;
 }
-```
+</pre>
 
 Your Tour data type must implement the following API:
 <pre>
@@ -57,7 +57,7 @@ double distance()                               // return the total distance of 
 Each Tour object should be able to print its constituent points to standard output, draw its points to standard draw, count its number of points, compute its total distance, and insert a new point using either of the two heuristics. The first constructor creates an empty tour; the second constructor creates a 4-point tour and is intended to assist with debugging.  
 
 **Input and testing.** The input format will begin with two integers *w* and *h*, followed by pairs of *x-* and *y-coordinates*. All *x-coordinates* will be real numbers between 0 and *w*; all *y-coordinates* will be real numbers between 0 and *h*. Many test data files are available. As an example, tsp1000.txt contains the following data:
-```console
+<pre>
 % more tsp1000.txt
 775 768
 185.0411 457.8824
@@ -70,11 +70,11 @@ Each Tour object should be able to print its constituent points to standard outp
 329.9402 740.9576
 ...
 254.9820 302.2548
-```
+</pre>
 
 After implementing Tour.java, use the client program NearestInsertion.java to read in the points from standard input, run the nearest neighbor heuristic; print the resulting tour, its distance, and its number of points to standard output; and draw the resulting tour to standard draw. SmallestInsertion.java is analogous but runs the smallest insertion heuristic.  
 
-```console
+<pre>
 % java NearestInsertion < tsp1000.txt
 Tour distance = 27868.710634854797
 Number of points = 1000
@@ -88,10 +88,10 @@ Number of points = 1000
 (221.5852, 442.8863)
 ...
 (264.57, 410.328)
-```
+</pre>
 ![1000 points nearest](tsp1000-nearest.png)
 
-```console
+<pre>
 % java SmallestInsertion < tsp1000.txt
 Tour distance = 17265.628155352584
 Number of points = 1000
@@ -105,7 +105,7 @@ Number of points = 1000
 (221.5852, 442.8863)
 ...
 (186.8032, 449.9557)
-```
+</pre>
 ![1000 points smallest](tsp1000-smallest.png)
 
 
