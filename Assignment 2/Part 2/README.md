@@ -95,7 +95,7 @@ b1 <-> b3 false false
 ![](main_block_200.png)
 
 Here is the code we used to test our Blocks class along with sample output:  
-<pre>
+```console
 public static void main(String [] args)
 {
 	Blocks blocks = new Blocks("bogusfilename.txt");
@@ -123,9 +123,9 @@ public static void main(String [] args)
 	System.out.println("current = " + current);		
 	System.out.println("size now = " + blocks.size());
 }
-</pre>
+```
 
-<pre>
+```console
 Could not find blocks file: bogusfilename.txt
 size   = 3
 height = 0.8999999999999999
@@ -135,7 +135,7 @@ current  = null
 size now = 3
 current = Block@42472d48
 size now = 2
-</pre>
+```
 
 ![](main_blocks_200.png)
 
