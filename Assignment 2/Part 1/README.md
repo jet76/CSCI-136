@@ -4,10 +4,10 @@ In the first part, you will be creating a command line application CreateBlocks.
 
 **Command line arguments.** The program takes 3-5 command line arguments. If fewer then 3 command line arguments are given, it prints out the following helpful message and then terminates:  
 
-```console
+<pre>
 % java CreateBlocks
 CreateBlocks <color file> <output file> <num blocks> [min size] [max size]
-```
+</pre>
 
 The first argument is a file containing a list of colors. The first line in the color file is the total colors in the file. Each subsequent line has four columns describing a color: name of the color, red, green, and blue components. The components are given as an integer between 0 and 255. The first line is the total number of colors in the file:  
 <pre>
@@ -47,87 +47,87 @@ The width and height are randomly chosen using in the (min, max) range specified
 
 **Example runs:**  
 
-```console
+<pre>
 % java CreateBlocks missing.txt
 CreateBlocks <color file> <output file> <num blocks> [min size] [max size]
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks missing.txt out.txt 10
 Could not read color file: missing.txt
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks StdDraw.class out.txt 1 0
 Could not parse color file: StdDraw.class
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt . 10
 Read in 114 colors.
 Failed to open output file: .
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt -2
 Read in 114 colors.
 Invalid number of blocks: -2
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 0
 Read in 114 colors.
 Invalid number of blocks: 0
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt ick
 Read in 114 colors.
 Invalid number of blocks: ick
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 yo
 Read in 114 colors.
 Invalid min block size: yo
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 0.0
 Read in 114 colors.
 Invalid min block size: 0.0
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 0.1 -0.2
 Read in 114 colors.
 Invalid max block size: -0.2
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 0.1 0.05
 Read in 114 colors.
 Invalid block size range: 0.1 > 0.05
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 0.1 no
 Read in 114 colors.
 Invalid max block size: no
-```
+</pre>
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 10 0.1 0.3
 Read in 114 colors.
 Creating 10 random blocks.
-```
+</pre>
 ![](block10_200.png)
 
-```console
+<pre>
 % java CreateBlocks colors.txt out.txt 1000 0.01
 Read in 114 colors.
 Creating 1000 random blocks.
-```
+</pre>
 
 ![](block1000_200.png)
 
