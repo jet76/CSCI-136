@@ -47,7 +47,7 @@ The hero can only walk in the desired direction if the cell at that location is 
 **Doors.** All doors in the game start closed and locked. If the hero attempts to move into a locked door and the hero has at least one key, the door opens and the door.wav sound plays. Opening a door costs the hero one key. Once a door is open, it remains open.  
 
 **Text output.** Besides the graphical display, the game also prints out text depending on what is going on. Here are the messages:  
-```
+<pre>
 Our hero walks north...
 Can't go north!
 Our hero walks south...
@@ -60,7 +60,7 @@ You found a key, total keys = X
 You found a gem, total gems = X
 Used key to open door, keys left = X
 You need a key for the door!
-```
+</pre>
 When the above messages should print should be obvious. The letter X should be replaced with the appropriate current count of keys or gems.  
 
 **Classes.** You should start by downloading the file [dungeon.zip](dungeon.zip). This file contains the audio and image files as well as stub versions of the classes. The methods have javadoc style comments, you need to add instance variables and all method implementations. Here is a description of each class:  
