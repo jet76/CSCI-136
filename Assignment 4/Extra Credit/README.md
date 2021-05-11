@@ -8,11 +8,14 @@ Contains additional tiles from Ultima 4:
 * town3.gif ![town3.gif](town3.gif)  
 
 Conatins four extra maps:  
+
 2 versions of 8-bit Ganon from the Legend of Zelda  
 * [ganon.txt](ganon.txt)  
 * [ganon2.txt](ganon2.txt)  
+
 1 Jhelom (world map area) from Ultima 4  
 * [jhelom.txt](jhelom.txt)  
+
 1 Moonglow (world map area) from Ultima 4  
 * [moonglow.txt](moonglow.txt)  
 
