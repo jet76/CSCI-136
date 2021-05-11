@@ -1,0 +1,29 @@
+23 27
+5 20
+W W W W W W W W W W W W W W W W W W W W W W W
+W - - - - - - - - - W W W - - - - - - - - - W
+W - - - - - - - - - W W W - W W W W W W W - W
+W - - - - - - - - - D - W - W - - - - - W - W
+W - - - - - - - - - W - - - W - W W W - W - W
+W D W D W - W W W W W W W W W - W W W - W - W
+W - - - W - - - - - - - - - - - W W W - W - W
+W - - - W W W W W W W W W W W W W W W - W - W
+W W - W W - - - - - - - W W W W W W W - - - W
+W W - S S - - - - - - - W W W W W W W W W - W
+W W - W W - - - - - - - W - - - - - - - W - W
+W W D W W W W W W - W W W - W W W W W W W - W
+W W - W W - - - - - W - - - - - - - - - - - W
+W W - W W - W W W W W - W W W W W W W S W D W
+W W - W W - W - - - - - - - - - - - D - - - W
+W - - - - - W - - - - - - - - - - - W W W W W
+W - W W W W W - - - - - - - - - - - W W W W W
+W - W W W W W - - - - - - - - - - - W - - - W
+W - W W W W W W W W W D W W W W W W W W W - W
+W - W - - - - - - - - - W W W W W W W W W - W
+W - W - W W S W W W W W W W - - - - - W W - W
+W - W - W W S W W W W W W W - - - - - W W - W
+W - W - W W S W W W W W W W W W - W W W W - W
+W - W - - - - - - - - - - - - - - - - - - - W
+W - W W W D W W W W W W W W W W W W W W W - W
+W - - - - - - - - - - - - - - - - - - - - - W
+W W W W W W W W W W W W W W W W W W W W W W W
