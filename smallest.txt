@@ -1,0 +1,31 @@
+1000
+Tour distance : 15311.160394298433
+Smallest insertion:  0.015 seconds
+
+2000
+Tour distance : 22142.994464079864
+Smallest insertion:  0.032 seconds
+
+4000
+Tour distance : 31076.57909179635
+Smallest insertion:  0.125 seconds
+
+8000
+Tour distance : 43948.21005356595
+Smallest insertion:  0.484 seconds
+
+16000
+Tour distance : 61815.106667718355
+Smallest insertion:  2.016 seconds
+
+32000
+Tour distance : 87760.9992818434
+Smallest insertion:  8.241 seconds
+
+64000
+Tour distance : 123960.40728238982
+Smallest insertion:  43.636 seconds
+
+128000
+Tour distance : 175498.08521872025
+Smallest insertion:  287.648 seconds

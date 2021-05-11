@@ -1,0 +1,31 @@
+1000
+Tour distance : 26645.059712729628
+Nearest insertion:  0.016 
+
+2000
+Tour distance : 36268.47574862138
+Nearest insertion:  0.015 
+
+4000
+Tour distance : 53116.357714821635
+Nearest insertion:  0.063 
+
+8000
+Tour distance : 74925.88788539598
+Nearest insertion:  0.266 
+
+16000
+Tour distance : 104806.43898172457
+Nearest insertion:  1.266 
+
+32000
+Tour distance : 148751.19986026216
+Nearest insertion:  5.46 
+
+64000
+Tour distance : 209494.3787189162
+Nearest insertion:  29.968 
+
+128000
+Tour distance : 298515.9729605064
+Nearest insertion:  233.503 
