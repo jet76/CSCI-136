@@ -62,7 +62,7 @@ A Map collection in Java can map multiple keys to the same value. This is exactl
 
 Every time the build() method is called, you need to re-initialize the contents of prefixToEntry. This ensures that you take into account any new words or updated counts present in wordToCount. Here is an overview of the algorithm you should be aiming for in build():  
 
-* Loop over all possible (key, value) pairs in wordToCount. For example of how to do this, see the [HashMapIter.java](HashMapIter.java) example program.
+* Loop over all possible (key, value) pairs in wordToCount. For example of how to do this, see the [HashMapIter.java](https://katie.cs.mtech.edu/classes/archive/s14/csci136/examples/HashMapIter.java) example program.
   * For each (key, value) pair:
     * Calculate the probability of that word given its count and the number of training words. Create a new DictEntry object representing this word and its probability.
     * Loop over all possible prefixes of the word. That is from a prefix of only the first letter to a "prefix" that is the entire word.
