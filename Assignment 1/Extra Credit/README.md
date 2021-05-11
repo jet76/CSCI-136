@@ -3,7 +3,9 @@ Make the game better. But please see the note below on how to submit your extra-
 
 ---
 
-```java DungeonGame < dEC.txt```
+```console
+java DungeonGame < dEC.txt
+```
 
 ---
 
