@@ -74,16 +74,21 @@ When the above messages should print should be obvious. The letter X should be r
 **Audio playback.** Use the [AudioFile.java](AudioFile.java) to play the sound effects. All audio playback can be handled by the Hero class since methods are always involved if a sound event happens. Since you are playing the same sound repeatedly, it makes sense for the Hero object to have an instance variable for each sound effect. Then whenever you need to play a sound, you can simply call the play() method on the appropriate variable.
 
 **Main test methods.** The classes Cell, CellDoor, Dungeon, and Hero have provided test main() methods. This allows you to test most of the methods in a class independent of the other classes. You can modify or add to these test main() methods as you like (we ignore all main() methods except the one in DungeonGame.java). Here are our sample outputs using the provided test programs:  
+
 Cell.java		
+
 ![](main_cell.png)  
 
 CellDoor.java		
+
 ![](main_celldoor.png)  
 
 Hero.java		
+
 ![](main_hero.png)  
 
 Dungeon.java		
+
 ![](main_dungeon.png)  
 
 You should also test with the bigger dungeons [d1.txt](s1.txt) and [d2.txt](d2.txt). Here are links to what the dungeons look like in our solution: [d1.png](d1.png), [d2.png](d2.png).  
