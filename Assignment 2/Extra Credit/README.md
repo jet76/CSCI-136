@@ -1,4 +1,4 @@
-# Extra credit.  
+# Extra credit  
 Make the game better. Please see the note below on how to submit your extra-credit creation. Be sure to submit your regular submission first and ensure it works per the assignment specifications.  
 
 ---
