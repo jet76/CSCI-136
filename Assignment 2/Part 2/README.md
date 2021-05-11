@@ -51,7 +51,7 @@ public boolean validLocation(Block block)         // Check if a Block's location
 **Height.** At the top of the screen, the current height of the blocks should be displayed. A lower height is a better "score". The height should be displayed to three decimal places of precision. This is the maximum y-coordinate of the top side of any block in the game. If the user is currently dragging a block that is above all the other blocks, the height text should change to reflect the dragged block's current location.  
 
 **Testing your classes.** Here is the code we used to test our Block class along with sample output:  
-<pre>
+```console
 public static void main(String [] args)
 {
    Block b1 = new Block(0.5, 0.5, 0.1, 0.2, 255, 0, 0);
@@ -79,7 +79,7 @@ public static void main(String [] args)
    System.out.println("b1 <-> b2 " + b1.intersects(b2) + " " + b2.intersects(b1));
    System.out.println("b1 <-> b3 " + b1.intersects(b3) + " " + b3.intersects(b1));
 }
-</pre>
+```
 
 <pre>
 b1 0.45 0.6 0.55 0.4
@@ -125,7 +125,7 @@ public static void main(String [] args)
 }
 ```
 
-```console
+<pre>
 Could not find blocks file: bogusfilename.txt
 size   = 3
 height = 0.8999999999999999
@@ -135,7 +135,7 @@ current  = null
 size now = 3
 current = Block@42472d48
 size now = 2
-```
+</pre>
 
 ![](main_blocks_200.png)
 
