@@ -45,13 +45,13 @@ We have provided a test main for Avatar. Here is our output:
 Here are the details of the types of tiles your program needs to support:  
 <table border="1" cellspacing="0" cellpadding="3">
 <tr><td>Name</td><td>Filename</td><td>Image</td><td>Opaque?</td><td>Passable?</tt><td>String code</td></tr>
-<tr><td>Brick floor</td><td><tt>brickfloor.gif</tt></td><td><img src="student/brickfloor.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>B</td></tr>
-<tr><td>Lava</td><td><tt>lava.gif</tt></td><td><img src="student/lava.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>L</td></tr>
-<tr><td>Water</td><td><tt>water.gif</tt></td><td><img src="student/water.gif" width="16" height="16" /></td><td>No</td><td>No</tt></td><td>W</td></tr>
-<tr><td>Forest</td><td><tt>forest.gif</tt></td><td><img src="student/forest.gif" width="16" height="16" /></td><td>Yes</td><td>Yes</tt></td><td>F</td></tr>
-<tr><td>Grasslands </td><td><tt>grasslands.gif</tt></td><td><img src="student/grasslands.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>G</td></tr>
-<tr><td>Mountains</td><td><tt>mountains.gif</tt></td><td><img src="student/mountains.gif" width="16" height="16" /></td><td>Yes</td><td>No</tt></td><td>M</td></tr>
-<tr><td>Stone wall</td><td><tt>stonewall.gif</tt></td><td><img src="student/stonewall.gif" width="16" height="16" /></td><td>Yes</td><td>No</tt></td><td>S</td></tr>
+<tr><td>Brick floor</td><td><tt>brickfloor.gif</tt></td><td><img src="brickfloor.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>B</td></tr>
+<tr><td>Lava</td><td><tt>lava.gif</tt></td><td><img src="lava.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>L</td></tr>
+<tr><td>Water</td><td><tt>water.gif</tt></td><td><img src="water.gif" width="16" height="16" /></td><td>No</td><td>No</tt></td><td>W</td></tr>
+<tr><td>Forest</td><td><tt>forest.gif</tt></td><td><img src="forest.gif" width="16" height="16" /></td><td>Yes</td><td>Yes</tt></td><td>F</td></tr>
+<tr><td>Grasslands </td><td><tt>grasslands.gif</tt></td><td><img src="grasslands.gif" width="16" height="16" /></td><td>No</td><td>Yes</tt></td><td>G</td></tr>
+<tr><td>Mountains</td><td><tt>mountains.gif</tt></td><td><img src="mountains.gif" width="16" height="16" /></td><td>Yes</td><td>No</tt></td><td>M</td></tr>
+<tr><td>Stone wall</td><td><tt>stonewall.gif</tt></td><td><img src="stonewall.gif" width="16" height="16" /></td><td>Yes</td><td>No</tt></td><td>S</td></tr>
 </table>
 
 If a tile is not lit, you can draw it using the supplied blank.gif image. Here is the API you should implement for the Tile class:  
