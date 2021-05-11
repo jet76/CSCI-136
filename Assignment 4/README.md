@@ -120,7 +120,7 @@ The handleKey() method should handle the following keys:
 * s : Move the Avatar south. Nothing should happen if the tile to the south is not passable or is off the map.
 * a : Move the Avatar west. Nothing should happen if the tile to the west is not passable or is off the map.
 * d : Move the Avatar east. Nothing should happen if the tile to the east is not passable or is off the map.
-* + : Increase the torch radius by 0.5, there is no maximum radius.
+* \+ : Increase the torch radius by 0.5, there is no maximum radius.
 * \- : Decrease the torch radius by 0.5, subject to a minimum radius of 2.0.
 
 The lighting algorithm is the crux of the assignment. You will need to implement a recursive helper method that gets called by the public light method. For example:  
