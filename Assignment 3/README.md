@@ -166,9 +166,11 @@ In particular, note the last requirement. This requirement means you can in fact
 
 ---
 
-**Extra credit.**
-* Level 1. Create a more advanced predictive keyboard that can show the top N possible completions for the current word. The value for N is passed as the first argument on the command-line. The interface should show up to N words that are consistent with the currently typed letters. Less than N words may be shown for some prefixes. The letters should be labeled with the numbers 0 up to N-1. If the user hits a number, the coorresponding predictions (if any) is output. The return key should select the best prediction. The video to the right shows our version trained on the wiki_200k.txt using 5 predictions.
-* Level 2. Make your predictions depend on not only the current word prefix, but also on the prior word (i.e. a bigram language model). Note that you might not always be able to make a prediction using the prior word (e.g. at the start of the sentence or if the prior word was never seen in the training data). This is a common problem in language modeling called sparsity. One way to handle this problem is to backoff to a lower-order language model. In your case, this would mean backing off to the unigram model which can always make a prediction as long as the current prefix is consistent with some word in the training data.
+**Extra credit.**  
+
+* **Level 1.** Create a more advanced predictive keyboard that can show the top N possible completions for the current word. The value for N is passed as the first argument on the command-line. The interface should show up to N words that are consistent with the currently typed letters. Less than N words may be shown for some prefixes. The letters should be labeled with the numbers 0 up to N-1. If the user hits a number, the coorresponding predictions (if any) is output. The return key should select the best prediction. The video to the right shows our version trained on the wiki_200k.txt using 5 predictions.  
+
+* **Level 2.** Make your predictions depend on not only the current word prefix, but also on the prior word (i.e. a bigram language model). Note that you might not always be able to make a prediction using the prior word (e.g. at the start of the sentence or if the prior word was never seen in the training data). This is a common problem in language modeling called sparsity. One way to handle this problem is to backoff to a lower-order language model. In your case, this would mean backing off to the unigram model which can always make a prediction as long as the current prefix is consistent with some word in the training data.  
 
 ---
 
