@@ -1,0 +1,35 @@
+35 33
+10 40
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W
+W - W - - - - - W - - - - - - - W - W - W - W - W - - - - - - - - - W
+W - W - - - - - W W W - W W W W W - W - W - W - W - W W W W W W W - W
+W - W - - - - - - - - - - - - - W - W - - - W - W - W W W W W W W - W
+W - W - - - - - W - - - - - - - W - W W W - W - W - W W W W W W W - W
+W - W - - - - - W - - - - - - - W - - - - - W - W - W W W W W W W - W
+W - W W W D W W W W W W W W W W W - W W W W W D W D W W W W W W W - W
+W - - - - - - - - - - - - - - - W - W W - W W - - - - - - - - - W - W
+W D W W W W W - - - - - - - - - D - W - - - W - - - - - - - - - W - W
+W - - - - - W - - - - - - - - - W - W W - W W - - - - - - - - - W - W
+W - - - - - W - - - - - - - - - W - W W D W W W W W W W W W W W W - W
+W - - - - - - - - - - - - - - - W - - - - - - - - - - - W - - - - - W
+W W W W W W W W W W W D W W W W W W W W W W W W W W W - W - W W W - W
+W - - - - - - - - - - - W - - - - - - - - - - - W - W - W - - - W - W
+W W W W W - W W W W W - W - - - - - - - - - - - W - W - W W W W W - W
+W - - - D - W - - - - - W - - - - - - - - - - - D - W - W W W W W - W
+W - - - W W W - W W W W W - - - - - - - - - - - W - W - W W W W W - W
+W - - - W - W - W W W W W - - - - - - - - - - - W - W - - - - - - - W
+W - - - W - W - W W W W W W W W W - W W W W W W W - W W W W W W W - W
+W - - - W - - - - - - - - - - - W - - - W - - - - - W - - - - - W - W
+W W W - W W W W W W W W W W W - W W W W W - W W W - W W W W W - W - W
+W - D - - - - - - - W - - - - - - - - - - - W W W - - - - - - - W - W
+W - W - - - - - - - W W W W W W W W W W W W W W W W W W W - W W W - W
+W - W - - - - - - - - - W - - - - - - - - - - - W W W W W - W - - - W
+W - W W W W W W - W W - W - - - - - - - - - - - W W W W W - W - W W W
+W - - - - - W W - W W - W - - - - - - - - - - - W W W W W - W - W - W
+W W W W W - W W - D D - W W W W W W W W W W W D W W W W W - W - W - W
+W - - - W - W W - W W - - - - - - - - - W W W - - - - - W - W - W - W
+W - W - W - W W - W W W - W W W W W - - W W W - W W W - W - W - W - W
+W - W - W - - - - W W W - - W W W W - - W W W - - - W - - - W - W - W
+W - W W W - W W W W W W - - W W W W - - W W W W W W W W W W W - W - W
+W - - - - - W W W W W W W W W W W W - - - - - - - - - - - - - - - - W
+W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W W
