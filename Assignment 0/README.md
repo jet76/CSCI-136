@@ -2,6 +2,8 @@
 
 In this assignment, you will be implementing several heuristics to find a short path through a set of points. In the process, you will gain additional experience with linked lists, empirical performance analysis, and also learn about a famous problem in computer science.  
 
+---
+
 Given *N* points in the plane, the goal of a traveling salesperson is to visit all of them (and arrive back home) while keeping the total distance traveled as short as possible. Implement two greedy heuristics to find good (but not optimal) solutions *to the traveling salesperson problem* (TSP).  
 
 ![1000 points in the plane](tsp1000.png)  
