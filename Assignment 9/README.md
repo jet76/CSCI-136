@@ -2,7 +2,7 @@
 
 You will be designing an artificial intelligence to solve a specific problem. In the process, you will gain experience working with external documentation and libraries. While I encourage you to help each other, especially early on in the assignment, I want an individual unique creature submitted from every student (i.e. this is not a paired assignment).  
 
-![gate2.png](gate2.png)  
+![gate2.png](gate2.png)
 
 ---
 
@@ -63,6 +63,11 @@ Submission. Submit a single zip file containing:
 * Name the zip file after your creature name and initials, e.g. KillerKV.zip  
 
 Be sure your submitted source file has the required header with your name, username, and a description of the program.  
+
+---
+
+Tournament Results
+![](tournament_s14.png)
 
 ---
 
