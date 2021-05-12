@@ -32,7 +32,7 @@ Here is the new API method:
 <pre>
 public class Tile
 -----------------------------------------------------------------------------------------
-        int getDamage()              // Return the damage caused by this type of Tile
+int getDamage()              // Return the damage caused by this type of Tile
 </pre>
 
 **Monster.** The Monster class represents a monster that roams around the World randomly. A monster knows things like its location, its remaining hit points, the amount of damage it causes when it attacks, and the type of monster it is. Monster objects also keep a reference to the World object so they can call methods in World from their run() method (namely the monsterMove() method). Just like the Avatar, if a monster is damaged it displays its remaining hit points in red text over the monster's image for approximately three seconds. If a monster's hit points are 0 or less, the monster has been killed and no longer is shown.  
