@@ -49,9 +49,11 @@ Part 3 requirements:
 * When audio is playing, a red line shows the current playback position in synch with the audio.  
 * When audio is playing, the Stop button is enabled and if clicked, causes playback to immediately stop and the red line to disappear.  
 * When audio is not playing, no red line appears in the waveform display.  
-* My program crashes if the user attempts to load an invalid file. Is that okay? No. The StdAudio read method throws a RuntimeException if it fails to load a file. You need to catch this exception and return false from your load method.  
 
 ---
+
+**My program crashes if the user attempts to load an invalid file. Is that okay?** No. The StdAudio read method throws a RuntimeException if it fails to load a file. You need to catch this exception and return false from your load method.  
+
 
 **My text field is super tall and looks silly. How do I prevent that?** For a widget in a BoxLayout, you can specify a maximum size using the setMaximumSize method.  
 
