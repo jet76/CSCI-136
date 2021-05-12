@@ -31,13 +31,17 @@ The first line specifies that the playing area of the game window will be 600 pi
 
 Here is what our game looks like loading the three different level files as well as when the stick man has died:
 
-![stick0.txt](stick0.png) stick0.txt  
+![stick0.txt](stick0.png)  
+stick0.txt  
 
-![stick0.txt](stick0_dead.png) stick0.txt  
+![stick0.txt](stick0_dead.png)  
+stick0.txt  
 
-![stick1.txt](stick1.png) stick1.txt  
+![stick1.txt](stick1.png)  
+stick1.txt  
 
-![stick2.txt](stick2.png) stick2.txt  
+![stick2.txt](stick2.png)  
+stick2.txt  
 
 **Game details.** Your StickMan application should take a single command-line argument for the level file to load. You can assume the level file will be well formed and the given image filename is valid. The total time of the game in seconds and tenths of a second should be displayed as a text label at the top-left of window. The timer should only continue to increment if the stick man is alive. After death, the timer shows the elapsed lifetime of the previous stick man.  
 
