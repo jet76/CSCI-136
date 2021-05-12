@@ -2,6 +2,8 @@
 
 You will be designing an artificial intelligence to solve a specific problem. In the process, you will gain experience working with external documentation and libraries. While I encourage you to help each other, especially early on in the assignment, I want an individual unique creature submitted from every student (i.e. this is not a paired assignment).  
 
+![gate2.png](gate2.png)  
+
 ---
 
 **Overview.** We will be using the [Darwin 2.2 game simulator](https://morgan3d.github.io/darwin/) from Williams College. You should start by downloading the [zip file](https://morgan3d.github.io/darwin/darwin2.2.zip). Inside the zip is the [player's handbook](https://morgan3d.github.io/darwin/players-handbook.pdf). You should read the player's handbook and also try out the simulator on some of the provided sample maps and creatures. The [online JavaDoc](https://morgan3d.github.io/darwin/doc/package-summary.html) will also be an important resource. Between the player's handbook and the JavaDoc, you should be able to find out whatever you need to know in order to develop your Creature.  
