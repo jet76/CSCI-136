@@ -1,4 +1,4 @@
-#WAV Audio Player  
+# WAV Audio Player  
 
 You will be creating a Java GUI application that loads WAV format audio files. The application displays a waveform visual display of the audio and allows the user to playback the audio.	  
 
