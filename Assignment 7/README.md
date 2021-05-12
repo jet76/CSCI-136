@@ -10,7 +10,7 @@ You will be creating a Java GUI application that loads WAV format audio files. T
 
 ![wav_invalid.png](wav_invalid.png)
 
-You will need to use a combination of layout managers and panels to achieve the above design. You may want to consult the MultiButtonsBox and BouncingBall examples. The waveform area will be the subclass of JPanel implemented in WavPanel.java. The other widgets rows will need to be grouped in there own JPanel objects.  
+You will need to use a combination of layout managers and panels to achieve the above design. You may want to consult the [MultiButtonsBox](https://katie.cs.mtech.edu/classes/archive/s14/csci136/examples/MultiButtonsBox.java) and [BouncingBall examples](https://katie.cs.mtech.edu/classes/archive/s14/csci136/examples/BouncingBall.java). The waveform area will be the subclass of JPanel implemented in WavPanel.java. The other widgets rows will need to be grouped in there own JPanel objects.  
 
 Part 1 requirements:  
 * The window should default to 500x300 pixels.  
